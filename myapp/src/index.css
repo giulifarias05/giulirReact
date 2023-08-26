@@ -31,7 +31,7 @@ code {
 }
 
 .navbar{
-  background-color:#b3732ae1;
+  background-color:#F5EFE0;
 }
 
 
@@ -46,18 +46,18 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.app-container {
-  position: relative;
-  z-index: 1; /* Asegura que el contenido del sitio aparezca por encima de la imagen de fondo */
-}
+
 /* Footer.css */
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color:#b3732ae1;
-  padding: 20px 0;
-  color: #000000;
+  background-color:#F5EFE0;
+  padding: 10px;
+  color: #333333;
+  font-size: 1rem;
+
+  ;
 }
 
 
@@ -69,7 +69,7 @@ body {
 
 .nav-link,
 .footer-links a {
-  color: #333; /* Cambia el color de los enlaces a tu preferencia */
+  color: #333333;
   margin-right: 15px;
 }
 
@@ -78,13 +78,128 @@ body {
   color: #e5e9ee; /* Cambia el color al pasar el cursor sobre el enlace */
 }
 
-/* App.css */
-.app-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
 
 .main-content {
   flex: 1;
 }
+
+
+
+
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente */
+  min-height: 100vh;
+  overflow: auto;
+}
+
+/* ... otros estilos ... */
+
+.recipe-card {
+  background-color:#F5EFE0  ;
+  margin-top: 30px ; /* Agrega margen superior e inferior */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  width: 700px;
+  height: 130px;
+  align-items: flex-start;
+}
+
+
+.card-img img {
+  width: 150px; /* Ancho de la imagen */
+  height: 150px; /* Altura de la imagen */
+  object-fit: cover; /* Ajusta la imagen para llenar el contenedor */
+  display: block; /* Asegura que la imagen sea un elemento en línea */
+  border-radius: 8px 0 0 8px; /* Agrega bordes redondeados si lo deseas */
+  margin-right: 100px; /* Margen derecho para separar la imagen del texto */
+  flex: 0 0 auto;
+}
+
+/* ... otros estilos ... */
+
+
+
+.card-body {
+  overflow: hidden;
+  margin-top: 15px;
+  margin-left: -540px; /* Ajusta este valor para mover el texto más a la izquierda */
+}
+
+.card-title {
+  font-size: 1.45rem;
+  margin-top: 10px;
+}
+
+.card-text {
+  margin-top: 10px;
+}
+/* Estilos para la tarjeta */
+
+
+
+svg {
+  width: 20px;
+  height: 20px;
+  fill: #333; /* Color de los íconos */
+  margin-left: 10px; /* Espacio entre los íconos y el contenido */
+}
+
+/* Agrega estilos adicionales según sea necesario */
+
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 800px;
+  margin-top: 70px; 
+
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 800px;
+  margin-top: 60px;
+}
+
+
+
+
+
+
+
+.card-text {
+  margin-bottom: 0;
+}
+
+.vegetable-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Cambiado de "flex-end" a "flex-start" */
+  margin-bottom: 10px; /* Espacio entre los iconos y el título/descripción */
+}
+svg {
+  width: 35px;
+  height: 30px;
+  fill: #333; /* Color de los íconos */
+  margin-right: 10px; /* Espacio entre los íconos */
+}
+.more-info-icon {
+  display: flex;
+  align-items: center; /* Centra verticalmente el ícono */
+}
+
+
+
+
+
