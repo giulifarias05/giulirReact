@@ -50,3 +50,41 @@ body {
   position: relative;
   z-index: 1; /* Asegura que el contenido del sitio aparezca por encima de la imagen de fondo */
 }
+/* Footer.css */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color:#b3732ae1;
+  padding: 20px 0;
+  color: #000000;
+}
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link,
+.footer-links a {
+  color: #333; /* Cambia el color de los enlaces a tu preferencia */
+  margin-right: 15px;
+}
+
+
+.footer-links a:hover {
+  color: #e5e9ee; /* Cambia el color al pasar el cursor sobre el enlace */
+}
+
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
