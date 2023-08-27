@@ -1,9 +1,10 @@
 import React from 'react';
-import './App.css'; // Si tienes estilos específicos de la App
+import './App.css'; 
 import './index.css'; 
 import Navbar from './components/navbar'; // Importa el componente Navbar
 import Footer from './components/footer'; // Importa el componente Navbar
-import Card from './components/cards'; // Importa el nuevo componente
+import Card from './components/cards'; // Importa el componente cards
+
 const App = () => {
   return (
     <div className="app-container">

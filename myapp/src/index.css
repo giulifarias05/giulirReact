@@ -11,7 +11,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
   
 /* Navbar.css */
 .logo-image {
@@ -19,8 +18,6 @@ code {
   height: 50px; /* Ajusta la altura del logo */
 }
 
-
-/* Navbar.css */
 .navbar-links {
   display: flex;
   gap: 20px; /* Espacio entre los enlaces */
@@ -34,8 +31,6 @@ code {
   background-color:#F5EFE0;
 }
 
-
-
 body {
   margin: 0;
   padding: 0;
@@ -46,7 +41,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-
 /* Footer.css */
 .footer {
   position: fixed;
@@ -56,10 +50,7 @@ body {
   padding: 10px;
   color: #333333;
   font-size: 1rem;
-
-  ;
 }
-
 
 .footer-content {
   display: flex;
@@ -73,19 +64,13 @@ body {
   margin-right: 15px;
 }
 
-
 .footer-links a:hover {
   color: #e5e9ee; /* Cambia el color al pasar el cursor sobre el enlace */
 }
 
-
 .main-content {
   flex: 1;
 }
-
-
-
-
 
 .app-container {
   display: flex;
@@ -95,7 +80,7 @@ body {
   overflow: auto;
 }
 
-/* ... otros estilos ... */
+/* cards styles */
 
 .recipe-card {
   background-color:#F5EFE0  ;
@@ -121,10 +106,6 @@ body {
   flex: 0 0 auto;
 }
 
-/* ... otros estilos ... */
-
-
-
 .card-body {
   overflow: hidden;
   margin-top: 15px;
@@ -139,19 +120,14 @@ body {
 .card-text {
   margin-top: 10px;
 }
-/* Estilos para la tarjeta */
-
-
 
 svg {
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 30px;
   fill: #333; /* Color de los íconos */
   margin-left: 10px; /* Espacio entre los íconos y el contenido */
+  margin-top: 10px;
 }
-
-/* Agrega estilos adicionales según sea necesario */
-
 
 .cards-container {
   display: flex;
@@ -160,23 +136,7 @@ svg {
   margin: 20px auto;
   max-width: 800px;
   margin-top: 70px; 
-
 }
-
-.cards-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 20px auto;
-  max-width: 800px;
-  margin-top: 60px;
-}
-
-
-
-
-
-
 
 .card-text {
   margin-bottom: 0;
@@ -188,18 +148,8 @@ svg {
   justify-content: flex-start; /* Cambiado de "flex-end" a "flex-start" */
   margin-bottom: 10px; /* Espacio entre los iconos y el título/descripción */
 }
-svg {
-  width: 35px;
-  height: 30px;
-  fill: #333; /* Color de los íconos */
-  margin-right: 10px; /* Espacio entre los íconos */
-}
+
 .more-info-icon {
   display: flex;
   align-items: center; /* Centra verticalmente el ícono */
 }
-
-
-
-
-
